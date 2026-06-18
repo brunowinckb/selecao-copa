@@ -14,6 +14,9 @@
 
 <body>
     <header>
+
+        <div class="logo"><img src="img/logopng.png" alt="logo CBF"></div>
+
         <nav>
             <h3>
                 <a href="#convocados">Convocados</a>
@@ -22,36 +25,19 @@
             </h3>
         </nav>
 
-        <div class="logo"><img src="img/logopng.png" alt="logo CBF"></div>
-
-        <h1>
-            Brasil
-        </h1>
-
-        <h2>
-            rumo ao hexa
-        </h2>
     </header>
 
 
-    <div class="cabeca2">
-        <h1>
-            SELEÇÃO BRASILEIRA
-        </h1>
-
-        <h2>
-            Copa do Mundo 2026
-        </h2>
-        <img src="img/WC_2026_Brazil.jpg.webp" alt="imagem jogadores">
-
-        <h4>
-            A nossa história continua, o hexa é o nosso destino
-        </h4>
-
-        <h3>
-            VAMOS BRASIL!
-        </h3>
+   <div class="cabeca2">
+    <div class="textos-cabeca">
+        <h1>SELEÇÃO BRASILEIRA</h1>
+        <h2>Copa do Mundo 2026</h2>
+        <h4>A nossa história continua, o hexa é o nosso destino</h4>
+        <h3>VAMOS BRASIL!</h3>
     </div>
+
+    <img src="img/WC_2026_Brazil.jpg.webp" alt="imagem jogadores">
+</div>
 
 
     <main>
@@ -68,7 +54,7 @@
                 <h1>Alisson</h1>
                 <h2>Goleiro</h2>
                 <h2>Liverpool</h2>
-                <img class="logos" src="img/liverpool.png" alt="liverpool"><br>
+                
             </div>
 
 
@@ -77,7 +63,7 @@
                 <h1>Vinicius Jr</h1>
                 <h2>Atacante</h2>
                 <h2>Real Madrid</h2>
-                <img class="logos" src="img/Real_Madrid.png" alt="Real madrid"><br>
+                
             </div>
 
             
@@ -86,7 +72,7 @@
                 <h1>Neymar</h1>
                 <h2>Atacante</h2>
                 <h2>Santos</h2>
-                <img class="logos" src="img/santos.png" alt="Santos"><br>
+                
             </div>
 
 
@@ -95,16 +81,16 @@
                 <h1>Casemiro</h1>
                 <h2>Meio-Campo</h2>
                 <h2>Manchester United</h2>
-                <img class="logounited" src="img/manchester united bom.png" alt="Manchester united"><br>
+                
             </div>
 
 
             <div class="caixajogadores">
                 <img class="jogadores" src="img/magalhaes3x3.png" alt="Gabriel Magalhães">
-                <h1>Gabriel Magalhães</h1>
+                <h1>G. Magalhães</h1>
                 <h2>Zaguiero</h2>
                 <h2>Arsenal</h2>
-                <img class="logos" src="img/Arsenal_FC.svg.png" alt="Arsenal"><br>
+                
             </div>
 
         </section>
@@ -115,35 +101,74 @@
             <h1>Agenda de jogos</h1>
             <h3>Fase de grupos - Copa do mundo 2026</h3>
 
-
-            <img src="img/bandeira-brasil.png" alt="bandeira do brasil">
-            <h2>brasil</h2>
-            <h1>X</h1>
-            <img src="img/marrocos-bandeira.png" alt="bandeira do marrocos">
-            <h2>marrocos</h2>
-
-
-
-            <img src="img/bandeira-brasil.png" alt="bandeira do brasil">
-            <h2>brasil</h2>
-            <h1>X</h1>
-            <img src="img/haiti-bandeira.png" alt="bandeira do haiti">
-            <h2>haiti</h2>
+            <div class="quadros-jogos">
+                <div class="quadro-agenda">
+                <img src="img/bandeira-brasil.png" alt="bandeira do brasil">
+                <h1>X</h1>
+                <img src="img/marrocos-bandeira.png" alt="bandeira do marrocos">
+            </div>
 
 
-            <img src="img/bandeira-brasil.png" alt="bandeira do brasil">
-            <h2>brasil</h2>
-            <h1>X</h1>
-            <img src="img/escócia-bandeira.png" alt="bandeira da escócia">
-            <h2>escócia</h2>
+            <div class="quadro-agenda">
+                <img src="img/bandeira-brasil.png" alt="bandeira do brasil">
+                <h1>X</h1>
+                <img src="img/haiti-bandeira.png" alt="bandeira do haiti">
+            </div>
+
+
+            <div class="quadro-agenda">
+                <img src="img/bandeira-brasil.png" alt="bandeira do brasil">
+                <h1>X</h1>
+                <img src="img/escócia-bandeira.png" alt="bandeira da escócia">
+            </div>
+            </div>
 
         </section>
 
 
 
         <section id="formulario">
+    <div class="titulo-secao">
+        <h1>Envie seu Apoio rumo ao Hexa!</h1>
+        <h3>Deixe sua mensagem de incentivo para os nossos craques</h3>
+    </div>
 
-        </section>
+    <div class="container-form">
+        <form action="#" method="POST">
+            <div class="grupo-campo">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+            </div>
+
+            <div class="grupo-campo">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="seu-email@exemplo.com" required>
+            </div>
+
+            <div class="grupo-campo">
+                <label for="jogador">Para qual jogador vai seu apoio especial?</label>
+                <select id="jogador" name="jogador">
+                    <option value="todos">Para toda a Seleção!</option>
+                    <option value="vinicius-jr">Vinicius Jr</option>
+                    <option value="neymar">Neymar</option>
+                    <option value="alisson">Alisson</option>
+                    <option value="casemiro">Casemiro</option>
+                    <option value="magalhaes">Gabriel Magalhães</option>
+                </select>
+            </div>
+
+            <div class="grupo-campo">
+                <label for="mensagem">Sua Mensagem de Apoio</label>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva aqui suas palavras de incentivo para a Copa 2026..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+        </form>
+        
+    </div>
+    <div class="museu"><a href="hexa.html">Museu das copas</a></div>
+</section>
+
     </main>
 
 
