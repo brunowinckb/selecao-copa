@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    background-color: yellowgreen;
+}
+
+.quadro{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px 0px;
+    width: 100%;
+    max-width: 900px;
+}
+
+.quadro img{
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+h1{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 70px;
+    border-bottom: solid;
+}
+
+.quadro-invertido{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px 0px;
+    flex-direction: row-reverse;
+    text-align: right;
+    width: auto;
+    justify-content: right;
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+}
+
+.quadro-invertido img{
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.quadro:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px 0px;
+    width: 100%;
+    max-width: 900px;
+}
+
+.quadro-invertido:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  background-color: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px 0px;
+    flex-direction: row-reverse;
+    text-align: right;
+    width: auto;
+    justify-content: right;
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+}
